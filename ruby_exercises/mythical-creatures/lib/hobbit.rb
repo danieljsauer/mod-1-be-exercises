@@ -10,15 +10,11 @@ attr_reader :name, :disposition, :age, :has_ring, :is_short
     end 
 
     def celebrate_birthday
-        @age = @age +=1
+        @age += 1
     end 
 
     def adult?
-        if age >= 33
-            true
-        else
-            false
-        end
+        age >= 33
     end 
 
     def has_ring?
