@@ -50,6 +50,5 @@ RSpec.describe Wizard do
     expect(wizard.rested?).to be true
     wizard.cast
     expect(wizard.rested?).to be false
-
   end
 end
