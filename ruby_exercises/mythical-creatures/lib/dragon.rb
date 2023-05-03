@@ -5,19 +5,15 @@ attr_reader :name, :color, :rider
         @name = name
         @rider = rider
         @color = color
-        @hungry = true
         @counter = 0
     end
 
     def hungry?
-        @hungry
+        @counter < 3
     end
 
     def eat
-    @counter = @counter +=1
-        if @counter >= 3
-            @hungry = false
-        end 
+    @counter +=1
     end 
 
 end 
