@@ -38,4 +38,5 @@ RSpec.describe Medusa do
   it 'if a fourth victim is stoned the first is unstoned' do
     # your code here
   end
+  #push/pop one of those 
 end
